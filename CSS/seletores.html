@@ -6,22 +6,28 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-
         /* seletor global "*" */
         /* seletor de classe ".tag" */
         /* seletor de id "#aprovados" */
-        /* seletor de filho direto "#aninhado > div" */
-        /* seletor de filho descendente "#aninhado section" */
-        /* seletor de irmãos viznhos "p + ul" */
-        /* seletor de irmãos "p ~ ol" */	
-        /* seletor de atributo "[feira]" */	
-        /* section > span:nth-of-type(2),
+        /* combinação de seletor filho direto #aninhado>div */
+        /* combinação de seletor descendente #aninhado section */
+        /* combinação de seletor irmãos vizinhos p+ul */
+        /* combinação de seletor irmãos p~ol */
+        /* seletor de atributo [feira] */
+        /* seletor de atributo com valor [feira=casa] */
+        /* seletor de atributo com valor [feira~=escritorio] */
+        /* seletor de atributo com valor [feira*=asa] */
+        /* seletor que seja uma span e ao mesmo tempo primeiro filho de alguém span:nth-child(1) */
+        /* combinação de seletores de filhos impares section> :nth-child(odd)*/
+        /* combinação de seletores de filhos pares section> :nth-child(even)*/
+
+        section>span:nth-of-type(2),
+        /* segundo elemento que seja span e filho direto de section*/
         ul,
-        p 
-        {
+        p {
             color: #ff0;
             background-color: #f77;
-          } */
+        }
     </style>
 </head>
 
