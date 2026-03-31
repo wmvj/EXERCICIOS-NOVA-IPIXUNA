@@ -1,13 +1,13 @@
-const curso = 'Web1'
+const curso = 'Web2'
 
 console.log(curso.charAt(1))
 console.log(curso.charAt(10))
-console.log(curso.indexOf('1'))
+console.log(curso.indexOf('2'))
 
 console.log(curso.substring(1))
 console.log(curso.substring(0,3))
 console.log("Curso ".concat(curso).concat(" de JavaScript"))
-console.log(curso.replace('1','e'))
+console.log(curso.replace('2','e'))
 console.log("Ana,Maria,Pedro".split(','))
 
 // Template String

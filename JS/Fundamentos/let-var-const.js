@@ -12,9 +12,9 @@ second_number = 7
 
 console.log(firstNumber,second_number)
 
-// const c = 5
-// c = 50
-// console.log(c)
+const c = 5
+c = 50
+console.log(c)
 
 // // Diferença entre var e let
 
@@ -31,6 +31,6 @@ console.log('a =', a)
 var a = 10
 console.log('a =', a)
 
-// console.log('b =', b)
+console.log('b =', b)
 let b = 20
 console.log('b =', b)
